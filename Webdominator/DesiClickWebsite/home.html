@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<head>
+	<title>Desi-Click</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div class="main">
+	<div class="topbar"></div>
+
+	<div class="social_icon">
+		<div class="container">
+			<div class="icon">
+				<a href="https://facebook.com"><img src="img/2.png"></a>
+				<a href="https://instagram.com"><img src="img/3.png"></a>
+				<a href="https://twitter.com"><img src="img/4.png"></a>
+				<a href="https://youtube.com"><img src="img/5.png"></a>
+			</div>
+		</div>
+	</div>
+	<div class="header">
+	
+		<marquee bgcolor="#333"><h1><font color="white">Desi-Click.Com</font></h1></marquee>
+
+</div>
+	<ul>
+	  <li><a class="active" href="home.html">All</a></li>
+	  <li><a href="mens.html">Mens's Clothing</a></li>
+	  <li><a href="womens.html">Women's Clothing</a></li>
+	  <li><a href="kids.html">Kids & Baby Clothing</a></li>
+	  <li><a href="offers.html">Offers Zone</a></li>	
+	</ul>
+		<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 5</div>
+  <a href="1.html"><img src="img/6.jpg" style="width:100%"></a>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 5</div>
+   <a href="2.html"><img src="img/9.jpg" style="width:100%"></a>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 5</div>
+  <a href="3.html"><img src="img/20.jpg" style="width:100%"></a>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 5</div>
+   <a href="4.html"><img src="img/23.jpg" style="width:100%"></a>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 5</div>
+  <a href="twentyfive.html"><img src="img/26.jpg" style="width:100%"></a>
+</div>
+
+
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+   <span class="dot" onclick="currentSlide(4)"></span> 
+   <span class="dot" onclick="currentSlide(5)"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 4000);
+}
+</script>
+<div class="margin">
+	<div class="gallery">
+	  <a target="_blank" href="one.html">
+		<img src="img/7.jpg" alt="Cinque Terre" width="700" height="300">
+	  </a>
+	  <div class="desc">629/-</div>
+	</div>
+
+	<div class="gallery">
+	  <a target="_blank" href="two.html">
+		<img src="img/8.jpg" alt="Forest" width="500" height="300">
+	  </a>
+	  <div class="desc">2500/-</div>
+	</div>
+
+	<div class="gallery">
+	  <a target="_blank" href="three.html">
+		<img src="img/14.jpg" alt="Mountains" width="500" height="300">
+	  </a>
+	  <div class="desc">1800/-</div>
+	</div>	
+
+	<div class="gallery">
+	  <a target="_blank" href="four.html">
+		<img src="img/10.jpg" alt="Cinque Terre" width="500" height="300">
+	  </a>
+	  <div class="desc">629/-</div>
+	</div>
+
+	<div class="gallery">
+	  <a target="_blank" href="five.html">
+		<img src="img/11.jpg" alt="Forest" width="500" height="300">
+	  </a>
+	  <div class="desc">2500/-</div>
+	</div>
+
+	<div class="gallery">
+	  <a target="_blank" href="six.html">
+		<img src="img/12.jpg" alt="Mountains" width="500" height="300">
+	  </a>
+	  <div class="desc">1800/-</div>
+	</div>
+		
+		<div class="gallery">
+	  <a target="_blank" href="seven.html">
+		<img src="img/13.jpg" alt="Forest" width="500" height="300">
+	  </a>
+	  <div class="desc">2500/-</div>
+	</div>
+</div>
+
+<div class="margin">
+	<div class="gallery">
+	  <a target="_blank" href="eight.html">
+		<img src="img/6.jpg" alt="Cinque Terre" width="500" height="300">
+	  </a>
+	  <div class="desc">629/-</div>
+	</div>
+
+	<div class="gallery">
+	  <a target="_blank" href="nine.html">
+		<img src="img/40.jpg" alt="Forest" width="500" height="300">
+	  </a>
+	  <div class="desc">2500/-</div>
+	</div>
+
+	<div class="gallery">
+	  <a target="_blank" href="ten.html">
+		<img src="img/41.jpg" alt="Mountains" width="500" height="300">
+	  </a>
+	  <div class="desc">1800/-</div>
+	</div>	
+
+	<div class="gallery">
+	  <a target="_blank" href="eleven.html">
+		<img src="img/56.jpg" alt="Forest" width="500" height="300">
+	  </a>
+	  <div class="desc">2500/-</div>
+	</div>
+	
+	<div class="gallery">
+	  <a target="_blank" href="twelve.html">
+		<img src="img/57.jpg" alt="Mountains" width="500" height="300">
+	  </a>
+	  <div class="desc">1800/-</div>
+	</div>
+	
+	<div class="gallery">
+	  <a target="_blank" href="thirteen.html">
+		<img src="img/15.jpg" alt="Cinque Terre" width="700" height="300">
+	  </a>
+	  <div class="desc">629/-</div>
+	</div>
+
+	<div class="gallery">
+	  <a target="_blank" href="fourteen.html">
+		<img src="img/16.jpg" alt="Forest" width="500" height="300">
+	  </a>
+	  <div class="desc">2500/-</div>
+	</div>
+
+	<div class="gallery">
+	  <a target="_blank" href="fifteen.html">
+		<img src="img/17.jpg" alt="Mountains" width="500" height="300">
+	  </a>
+	  <div class="desc">1800/-</div>
+	</div>	
+
+	<div class="gallery">
+	  <a target="_blank" href="sixteen.html">
+		<img src="img/18.jpg" alt="Cinque Terre" width="500" height="300">
+	  </a>
+	  <div class="desc">629/-</div>
+	</div>
+
+	<div class="gallery">
+	  <a target="_blank" href="seventeen.html">
+		<img src="img/19.jpg" alt="Forest" width="500" height="300">
+	  </a>
+	  <div class="desc">2500/-</div>
+	</div>
+
+	<div class="gallery">
+	  <a target="_blank" href="eighteen.html">
+		<img src="img/20.jpg" alt="Mountains" width="500" height="300">
+	  </a>
+	  <div class="desc">1800/-</div>
+	</div>
+		
+		<div class="gallery">
+	  <a target="_blank" href="nineteen.html">
+		<img src="img/21.jpg" alt="Forest" width="500" height="300">
+	  </a>
+	  <div class="desc">2500/-</div>
+	</div>
+</div>
+
+<div class="margin">
+	<div class="gallery">
+	  <a target="_blank" href="twenty.html">
+		<img src="img/22.jpg" alt="Cinque Terre" width="500" height="300">
+	  </a>
+	  <div class="desc">629/-</div>
+	</div>
+
+	<div class="gallery">
+	  <a target="_blank" href="twentyone.html">
+		<img src="img/52.jpg" alt="Forest" width="500" height="300">
+	  </a>
+	  <div class="desc">2500/-</div>
+	</div>
+
+	<div class="gallery">
+	  <a target="_blank" href="twentytwo.html">
+		<img src="img/53.jpg" alt="Mountains" width="500" height="300">
+	  </a>
+	  <div class="desc">1800/-</div>
+	</div>	
+
+	<div class="gallery">
+	  <a target="_blank" href="twentythree.html">
+		<img src="img/66.jpg" alt="Forest" width="500" height="300">
+	  </a>
+	  <div class="desc">2500/-</div>
+	</div>
+	
+	<div class="gallery">
+	  <a target="_blank" href="twentyfour.html">
+		<img src="img/50.jpg" alt="Mountains" width="500" height="300">
+	  </a>
+	  <div class="desc">1800/-</div>
+	</div>
+	
+	<div class="gallery">
+	  <a target="_blank" href="twentyfive.html">
+		<img src="img/26.jpg" alt="Mountains" width="500" height="300">
+	  </a>
+	  <div class="desc">1800/-</div>
+	</div>	
+
+	<div class="gallery">
+	  <a target="_blank" href="twentysix.html">
+		<img src="img/27.jpg" alt="Forest" width="500" height="300">
+	  </a>
+	  <div class="desc">2500/-</div>
+	</div>
+	
+	<div class="gallery">
+	  <a target="_blank" href="twentyseven.html">
+		<img src="img/28.jpg" alt="Mountains" width="500" height="300">
+	  </a>
+	  <div class="desc">1800/-</div>
+	</div>
+	
+	<div class="gallery">
+	  <a target="_blank" href="thirtyone.html">
+		<img src="img/32.jpg" alt="Mountains" width="500" height="300">
+	  </a>
+	  <div class="desc">1800/-</div>
+	</div>	
+
+	<div class="gallery">
+	  <a target="_blank" href="thirtytwo.html">
+		<img src="img/33.jpg" alt="Forest" width="500" height="300">
+	  </a>
+	  <div class="desc">2500/-</div>
+	</div>
+	
+	<div class="gallery">
+	  <a target="_blank" href="thirtythree.html">
+		<img src="img/34.jpg" alt="Mountains" width="500" height="300">
+	  </a>
+	  <div class="desc">1800/-</div>
+	</div>
+	
+	<div class="gallery">
+	  <a target="_blank" href="thirtyfive.html">
+		<img src="img/36.jpg" alt="Forest" width="500" height="300">
+	  </a>
+	  <div class="desc">2500/-</div>
+	</div>
+	
+	<div class="gallery">
+	  <a target="_blank" href="thirtysix.html">
+		<img src="img/37.jpg" alt="Mountains" width="500" height="300">
+	  </a>
+	  <div class="desc">1800/-</div>
+	</div>
+</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</div>
+</body>
+</html>
